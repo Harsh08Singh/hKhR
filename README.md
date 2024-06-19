@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Welcome to the hKhR Blockchain! This project, developed by Harsh Vardhan Singh, is a full-fledged blockchain and cryptocurrency application that highlights various core concepts of blockchain technology and cryptocurrency mechanisms. This README will guide you through the key features, accomplishments, and functionalities of the project.
+Welcome to the hKhR Blockchain! This project is a full-fledged blockchain and cryptocurrency application that highlights various core concepts of blockchain technology and cryptocurrency mechanisms. This README will guide you through the key features, accomplishments, and functionalities of the project.
+
+https://github.com/Harsh08Singh/hKhR/assets/99711903/e014533f-5c06-46f7-93f5-17dba480fd16
 
 ## Key Features
 
