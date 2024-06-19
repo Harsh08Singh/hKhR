@@ -1,0 +1,181 @@
+body {
+  background-color: #1e1e2f; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 2%;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.WalletInfo {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2a2a3d;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border: 1px solid #444;
+  transition: transform 0.3s ease;
+}
+
+.WalletInfo:hover {
+  transform: translateY(-5px);
+}
+
+.Block {
+  border: 1px solid #444;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #32324a;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.Block:hover {
+  transform: translateY(-5px);
+}
+
+.Transaction {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #32324a;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.Transaction:hover {
+  transform: translateY(-5px);
+}
+
+.ConductTransaction, .TransactionPool {
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #2a2a3d;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #444;
+  transition: transform 0.3s ease;
+}
+
+.ConductTransaction:hover, .TransactionPool:hover {
+  transform: translateY(-5px);
+}
+
+a.button {
+  display: inline-block;
+  background-color: #74b9ff; /* Light blue color */
+  color: #1e1e2f; /* Dark text color */
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px 10px;
+  min-width: 150px; /* Ensure equal width */
+  height: 60px; /* Ensure equal height */
+  line-height: 20px; /* Align text vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+a.button:hover {
+  background-color: #4ea9ff; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+a.button:active {
+  background-color: #3498db; /* Even darker shade on click */
+  transform: translateY(0); /* Remove lift effect on click */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  color: #ff7675; /* Vibrant coral color */
+  font-weight: bold;
+  animation: highlightEffect 2s infinite;
+}
+
+@keyframes highlightEffect {
+  0%, 100% {
+    color: #ff7675;
+    text-shadow: 0 0 5px #ff7675;
+  }
+  50% {
+    color: #ffeaa7;
+    text-shadow: 0 0 20px #ffeaa7;
+  }
+}
+
+button {
+  background-color: #ff7675; /* Matching button color */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65c5c; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+  background-color: #cc4949; /* Even darker shade on click */
+  transform: translateY(0); /* Remove lift effect on click */
+}
+
+.ShowMore {
+  background-color: #74b9ff; /* Light blue color for secondary action */
+  color: #1e1e2f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ShowMore:hover {
+  background-color: #4ea9ff; /* Darker shade on hover */
+  transform: translateY(-2px);
+}
+
+.ShowMore:active {
+  background-color: #3498db; /* Even darker shade on click */
+  transform: translateY(0);
+}
